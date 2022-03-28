@@ -1,0 +1,35 @@
+#header {
+    height: 50px;
+}
+
+#liApi {
+    position: relative;
+    left: 20%;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+#timeElement{
+    position: relative;
+    left: 60%;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+main {
+    margin-left: 20px;
+}
+
+.answerArea {
+    margin-left: 30px;
+}
+
+#quiz {
+    display:none;
+}
+
+#startButtonDiv {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 40%;
+}

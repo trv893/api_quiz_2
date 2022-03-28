@@ -9,7 +9,54 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
+
+<div id="startButtonDiv">
+    <button type="button" class="btn btn-success" id="startButton">Click to Begin Quiz</button>
+</div>
+
+<div id="quiz">
+
+    <header id= "header" class="bg-light w-100  border-bottom border-dark border-2 width  position-relative shadow-sm">
+        <ul id="ulTop" class="list-unstyled d-inline-flex position-relative w-100">
+            <li id="liApi" class="s">API Quiz</li>
+            <li id="timeElement"class="">Time left: <span id="timeLeft"></span></li>
+        </ul>
+    </header>
+
+    <main class="mt-5 pl">
+        <section>
+            <h2 id="questionArea">some question here about how blah blah blah</h1>
+
+            <h3 class="answerArea">
+                    <button type="button" class="btn btn-primary" id="answer0">Primary</button>
+            </h3>
+
+            <h3 class="answerArea">
+                <button type="button" class="btn btn-primary" id="answer1">Primary</button>
+            </h3>
+
+            <h3 class="answerArea">
+                <button type="button" class="btn btn-primary" id="answer2">Primary</button>
+            </h3>
+
+            <h3 class="answerArea">
+                <button type="button" class="btn btn-primary" id="answer3">Primary</button>
+            </h3>
+           
+
+
+        </section>
+
+        <section class="mt-5">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+        </section>
+
+
+    </main>
+
+</div>
 
 
 
