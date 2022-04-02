@@ -39,7 +39,7 @@ let questions = [
 ];
 
 // time availiable for quiz
-var timer = 120;
+var timer = 180;
 // keepts track of what questions user is on
 var questionIndex = 0
 // variable of progress of quiz
