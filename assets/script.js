@@ -1,27 +1,45 @@
 // object containing quesitons, answers and correct answer key
 let questions = [
     {
-        question: "What is the color of the sky",
-        answers: ["Blue", "Red", "Green", "orange"],
-        correctAnswer: "Blue",
+        question: "How do you find the first child of body using js?",
+        answers: ["document.body.children[1]", "document.body.children[0]", "document(body)children[1]", "document.body(children[1])"],
+        correctAnswer: "document.body.children[0]",
 
     },
     {
-        question: "What is the Grass",
-        answers: ["dog", "Purple", "roof", "green"],
-        correctAnswer: "green",
+        question: "Which is the correct syntax for javascipt to select element by ID?",
+        answers: ['document.querySelector("change2")', 'document.querySelector("#change2")', 'document.getElementById("#submitButton")', 'document.("submitButton")'],
+        correctAnswer: 'document.querySelector("#change2")',
 
     },
     {
-        question: "What is the color of the chewy",
-        answers: ["Red", "Blue", "brown", "chewy"],
-        correctAnswer: "brown",
+        question: "What is the correct order for creating a new element using javascript?",
+        answers: ["create, give attributes(text/style etc), append", "create, append, give attributes(text/style etc)", "append, create, set attr", "give attributes, create, append"],
+        correctAnswer: "create, give attributes(text/style etc), append",
+
+    },
+    {
+        question: "Which is the JS method that repeatedly calls a function or executes a code snippet, with a fixed time delay between each cal",
+        answers: ['clearInterval()', 'setInterval()', 'setInt()', 'setTimeInterval()'],
+        correctAnswer: 'setInterval()',
+
+    },
+    {
+        question: "Which is the correct way add an event listner to an element using javasript?",
+        answers: ['document.querySelector("element"("click",...', 'document.element.on("click",...', 'document.querySelector("element"(if (click",...', 'setTimeInterval()'],
+        correctAnswer: 'document.querySelector("element"("click",...',
+
+    },
+    {
+        question: "Which javascript event listner is activated when a keyboard button is pressed?",
+        answers: ['.addEventListener("keyup"', '.addEventListener("keydown"', '.addEventListener("pressKey"', '.addEventListener("click"'],
+        correctAnswer: '.addEventListener("keydown"',
 
     }
 ];
 
 // time availiable for quiz
-var timer = 1;
+var timer = 120;
 // keepts track of what questions user is on
 var questionIndex = 0
 // variable of progress of quiz
