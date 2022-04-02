@@ -28,19 +28,19 @@
             <h2 id="questionArea">some question here about how blah blah blah</h1>
 
             <h3 class="answerArea">
-                    <button type="button" class="btn btn-primary" id="answer0">Primary</button>
+                    <button type="button" class="answerbutton btn btn-primary" id="answer0">Primary</button>
             </h3>
 
             <h3 class="answerArea">
-                <button type="button" class="btn btn-primary" id="answer1">Primary</button>
+                <button type="button" class="answerbutton btn btn-primary" id="answer1">Primary</button>
             </h3>
 
             <h3 class="answerArea">
-                <button type="button" class="btn btn-primary" id="answer2">Primary</button>
+                <button type="button" class="answerbutton btn btn-primary" id="answer2">Primary</button>
             </h3>
 
             <h3 class="answerArea">
-                <button type="button" class="btn btn-primary" id="answer3">Primary</button>
+                <button type="button" class="answerbutton btn btn-primary" id="answer3">Primary</button>
             </h3>
            
 
@@ -55,8 +55,19 @@
 
 
     </main>
-
 </div>
+<section class="container">
+    <form id="form" class="row g-3 align-items-center m-4 ">
+        <div>
+            <span id="userScore"></span>
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-input w-100" id="name-input" name="name-input" placeholder="Enter initals" />
+        </div>
+        <button type="submit" class="btn btn-success" id="submitButton">Submitt</button>
+    </from>
+    <ul id="name-list"></ul>
+</section>
 
 
 

@@ -33,3 +33,7 @@ main {
     margin-top: 80px;
     margin-left: 40%;
 }
+
+#form {
+    display:none;
+}
